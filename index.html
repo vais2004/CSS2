@@ -41,6 +41,13 @@
                 color: var(--primary-color);
                 padding: 10px;
             }
+            .list-non-bullet{
+                list-style: none;
+            }
+            .list-item-inline{
+                display: inline;
+                padding: 0rem 0.5rem;
+            }
          </style> 
     </head>
     <body>
@@ -65,5 +72,28 @@
 
         <a href="/" class="link link-secondary">Secondary</a>
 
+        <h2>Lists</h2>
+        <ul class="list-non-bullet">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ul>
+
+        <h3>Inline Lists</h3>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">Item One</li>
+            <li class="list-item-inline">Item Two</li>
+            <li class="list-item-inline">Item Three</li>
+        </ul>
+
+        <h3>Reversed ordered List</h3>
+        <ol reversed>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ol>
+
+        <h3>Navbar</h3>
+        
     </body>
 </html>

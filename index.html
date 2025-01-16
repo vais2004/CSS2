@@ -7,6 +7,10 @@
 
          <!-- INTERNAL CSS -->
         <style>
+            :root{
+                --primary-color:blueviolet;
+            }
+
             .submit{
                 margin-top: 5px;
                 margin-bottom: 5px; margin-left: 10px;
@@ -25,9 +29,17 @@
                 text-decoration: none;
             }
             .link-primary{
-                background-color: blueviolet;
+                border: 2px solid var(--primary-color);
+                background-color: var(--primary-color);
                 border-radius: 0.5rem;
                 color: white;
+                padding: 10px;
+            }
+            .link-secondary{
+                border: 2px solid var(--primary-color);
+                border-radius: 0.5rem;
+                color: var(--primary-color);
+                padding: 10px;
             }
          </style> 
     </head>
@@ -46,6 +58,8 @@
         <div class="container">This is a container.</div>
 
         <div class="container centerd-container">This is a centered container.</div>
+
+        <br/>
 
         <a href="/" class="link link-primary">Primary</a>
 
